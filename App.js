@@ -3,92 +3,136 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Website Pessoal</title>
+<title>Perfis Profissionais</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<h1>Nome do Profissional</h1>
+<h1>Perfis Profissionais</h1>
 <nav>
 <ul>
-<li><a href="#inicio">Início</a></li>
-<li><a href="#sobre">Sobre</a></li>
-<li><a href="#carreira">Carreira</a></li>
-<li><a href="#galeria">Galeria</a></li>
-<li><a href="#conquistas">Conquistas</a></li>
-<li><a href="#contato">Contato</a></li>
+<li><a href="#futebol">Jogador</a></li>
+<li><a href="#ator">Ator</a></li>
+<li><a href="#cantor">Cantor</a></li>
+<li><a href="#atleta">Atleta Olímpico</a></li>
 </ul>
 </nav>
 </header>
 
-<section id="inicio" class="hero">
-<h2>Bem-vindo ao meu site</h2>
-<p>Jogador | Ator | Cantor | Atleta</p>
-<button>Saiba Mais</button>
-</section>
+<!-- JOGADOR -->
 
-<section id="sobre">
-<h2>Sobre</h2>
-<p>
-Aqui vai a biografia da pessoa. Conte um pouco da história,
-como começou a carreira e os principais momentos.
-</p>
-</section>
+<section id="futebol" class="perfil futebol">
+<h2>Jogador de Futebol</h2>
 
-<section id="carreira">
-<h2>Carreira</h2>
+<div class="conteudo">
+<img src="https://via.placeholder.com/250">
 
-<div class="card">
-<h3>2024</h3>
-<p>Evento importante ou conquista.</p>
-</div>
+<div>
+<h3>Sobre</h3>
+<p>Jogador profissional atuando como atacante.</p>
 
-<div class="card">
-<h3>2023</h3>
-<p>Outro momento marcante da carreira.</p>
-</div>
-
-</section>
-
-<section id="galeria">
-<h2>Galeria</h2>
-
-<div class="galeria">
-<img src="https://via.placeholder.com/200">
-<img src="https://via.placeholder.com/200">
-<img src="https://via.placeholder.com/200">
-<img src="https://via.placeholder.com/200">
-</div>
-
-</section>
-
-<section id="conquistas">
-<h2>Conquistas</h2>
-
+<h3>Carreira</h3>
 <ul>
-<li>🏆 Prêmio ou medalha importante</li>
-<li>🏆 Campeonato / filme / música</li>
-<li>🏆 Reconhecimento profissional</li>
+<li>2024 - Clube A</li>
+<li>2023 - Clube B</li>
 </ul>
 
+<h3>Conquistas</h3>
+<ul>
+<li>🏆 Campeonato Nacional</li>
+<li>⚽ Artilheiro da temporada</li>
+</ul>
+</div>
+
+</div>
 </section>
 
-<section id="contato">
-<h2>Contato</h2>
+<!-- ATOR -->
 
-<form>
-<input type="text" placeholder="Seu nome">
-<input type="email" placeholder="Seu email">
-<textarea placeholder="Mensagem"></textarea>
-<button type="submit">Enviar</button>
-</form>
+<section id="ator" class="perfil ator">
+<h2>Ator de Filme / Novela</h2>
 
+<div class="conteudo">
+<img src="https://via.placeholder.com/250">
+
+<div>
+<h3>Sobre</h3>
+<p>Ator com participações em novelas e cinema.</p>
+
+<h3>Filmografia</h3>
+<ul>
+<li>2024 - Filme X</li>
+<li>2023 - Novela Y</li>
+</ul>
+
+<h3>Prêmios</h3>
+<ul>
+<li>🏆 Melhor ator</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<!-- CANTOR -->
+
+<section id="cantor" class="perfil cantor">
+<h2>Cantor Sertanejo</h2>
+
+<div class="conteudo">
+<img src="https://via.placeholder.com/250">
+
+<div>
+<h3>Sobre</h3>
+<p>Cantor sertanejo com diversos shows pelo Brasil.</p>
+
+<h3>Músicas</h3>
+<ul>
+<li>2024 - Coração na Estrada</li>
+<li>2023 - Saudade de Você</li>
+</ul>
+
+<h3>Conquistas</h3>
+<ul>
+<li>🏆 Disco de Ouro</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<!-- ATLETA -->
+
+<section id="atleta" class="perfil atleta">
+<h2>Atleta Olímpico</h2>
+
+<div class="conteudo">
+<img src="https://via.placeholder.com/250">
+
+<div>
+<h3>Sobre</h3>
+<p>Atleta especializado em atletismo.</p>
+
+<h3>Competições</h3>
+<ul>
+<li>2024 - Olimpíadas</li>
+<li>2023 - Campeonato Mundial</li>
+</ul>
+
+<h3>Medalhas</h3>
+<ul>
+<li>🥇 Ouro</li>
+<li>🥈 Prata</li>
+</ul>
+</div>
+
+</div>
 </section>
 
 <footer>
-<p>© 2026 - Website Pessoal</p>
+<p>© 2026 Perfis Profissionais</p>
 </footer>
 
 </body>
